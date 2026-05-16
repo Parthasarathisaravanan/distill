@@ -1,9 +1,16 @@
 # Distill — Pure knowledge, every class
 
+> An AI-powered classroom assessment tool by Inceptez .  
+00000# Distill — Pure knowledge, every class
+
+# Distill — Pure knowledge, for each and every class
 > An AI-powered classroom assessment tool by Inceptez.  
 > Paste a transcript → get a concept map + adaptive quiz + Dr. Priya's interview debrief.
 
 ---
+#docFixes
+
+--AS version
 
 ## What It Does
 
@@ -15,7 +22,9 @@ Distill turns any Teams / Zoom / Google Meet transcript into a complete learning
 4. **Evaluates every answer** — MCQ explanations + Dr. Priya's AI interview debrief across 5 dimensions
 5. **Exports results** — WhatsApp-ready report with score, verdict, and study recommendations
 
-All processing happens locally. No data leaves your machine when using Ollama or LM Studio.
+All processing happens locally. No data leaves your machine when using Ollama or LM Studio !!!
+
+Just a testing 
 
 ---
 
@@ -239,6 +248,7 @@ Or use the CLI after installing LM Studio:
 lms server start
 lms get qwen/qwen3-4b-2507    # downloads GGUF Q8_0
 ```
+note: "qwen/" is a path and not a model name
 
 ### Step 3 — Load the model with a large context window
 
@@ -335,7 +345,8 @@ make dev   # starts backend + frontend together
 
 ## Setup — Cloud LLM (OpenAI / Anthropic / Gemini)
 
-No local server needed. Just set the API key and update `config.yaml`.
+
+No local server needed. Just set the API key and update `config.yaml`
 
 ### OpenAI
 
@@ -624,8 +635,29 @@ Distill accepts any text input with instructor speech. No specific format requir
 
 Minimum 100 characters. There is no maximum, the map-reduce pipeline handles transcripts of any length.
 
----
+This also testing by Shobana
 
+=======
+This also serves as a guid for PR - Pull requests: 
+- Feature update : feature/<somefeatureYouadd>
+- bugfix : bugfix/fix-login-button
+- document Update: docs/update-readme
+---
+This is a testing line
 ## License
+=======
+
+MIT — for educational use as part of the GenAI-2026 curriculum by Inceptez
+
+
+Trying to add some doc
+#Testing line - Sabari
+
+- readme changes
+- added new features
+
+#Testing - Nat
+
+#Testing - Naushin. 
 
 MIT — for educational use as part of the GenAI-2026 curriculum by Inceptez.
