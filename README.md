@@ -683,6 +683,7 @@ Trying to add some doc
 
 MIT — for educational use as part of the GenAI-2026 curriculum by Inceptez.
 
+Thanks Thanks
 # Testing by kannabiran
 ## changes to readme to get contributor access for Gopal KV... from inceptez class  
 check readme
